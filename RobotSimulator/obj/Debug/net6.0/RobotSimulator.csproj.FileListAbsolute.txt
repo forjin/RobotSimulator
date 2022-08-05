@@ -1,0 +1,15 @@
+/Users/jinpark/Projects/RobotSimulator/RobotSimulator/bin/Debug/net6.0/RobotSimulator
+/Users/jinpark/Projects/RobotSimulator/RobotSimulator/bin/Debug/net6.0/RobotSimulator.deps.json
+/Users/jinpark/Projects/RobotSimulator/RobotSimulator/bin/Debug/net6.0/RobotSimulator.runtimeconfig.json
+/Users/jinpark/Projects/RobotSimulator/RobotSimulator/bin/Debug/net6.0/RobotSimulator.dll
+/Users/jinpark/Projects/RobotSimulator/RobotSimulator/bin/Debug/net6.0/RobotSimulator.pdb
+/Users/jinpark/Projects/RobotSimulator/RobotSimulator/obj/Debug/net6.0/RobotSimulator.csproj.AssemblyReference.cache
+/Users/jinpark/Projects/RobotSimulator/RobotSimulator/obj/Debug/net6.0/RobotSimulator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jinpark/Projects/RobotSimulator/RobotSimulator/obj/Debug/net6.0/RobotSimulator.AssemblyInfoInputs.cache
+/Users/jinpark/Projects/RobotSimulator/RobotSimulator/obj/Debug/net6.0/RobotSimulator.AssemblyInfo.cs
+/Users/jinpark/Projects/RobotSimulator/RobotSimulator/obj/Debug/net6.0/RobotSimulator.csproj.CoreCompileInputs.cache
+/Users/jinpark/Projects/RobotSimulator/RobotSimulator/obj/Debug/net6.0/RobotSimulator.dll
+/Users/jinpark/Projects/RobotSimulator/RobotSimulator/obj/Debug/net6.0/refint/RobotSimulator.dll
+/Users/jinpark/Projects/RobotSimulator/RobotSimulator/obj/Debug/net6.0/RobotSimulator.pdb
+/Users/jinpark/Projects/RobotSimulator/RobotSimulator/obj/Debug/net6.0/RobotSimulator.genruntimeconfig.cache
+/Users/jinpark/Projects/RobotSimulator/RobotSimulator/obj/Debug/net6.0/ref/RobotSimulator.dll
