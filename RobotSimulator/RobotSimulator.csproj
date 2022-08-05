@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Comamnd\" />
+    <None Remove="Resource\" />
+    <None Remove="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Comamnd\" />
+    <Folder Include="Resource\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
 </Project>
