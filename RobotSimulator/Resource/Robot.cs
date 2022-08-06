@@ -5,28 +5,32 @@ namespace RobotSimulator.Resource
 {
     public class Robot
     {
-        public Position position
+        public Position Position
         {
             get;
             set;
         }
 
-        public Direction direction
+        public Direction Direction
         {
             get;
             set;
         }
 
-        public bool isPlaced
+        public bool IsPlaced
         {
             get;
             set;
+        }
+
+        public Robot()
+        {
         }
 
         public Robot(Position pos, Direction dir)
         {
-            this.position = pos;
-            this.direction = dir;
+            this.Position = pos;
+            this.Direction = dir;
         }
     }
 }

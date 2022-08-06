@@ -11,7 +11,7 @@ namespace RobotSimulator.Comamnd
         {
         }
 
-        public void execute(Robot robot)
+        public void Execute(Robot robot)
         {
             Environment.Exit(0);
         }

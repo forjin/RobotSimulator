@@ -3,17 +3,17 @@ namespace RobotSimulator.Properties
 {
     public class Direction
     {
-        public Directions facing
+        public Directions Facing
         {
             get;
             set;
         }
         public Direction(Directions dir)
         {
-            this.facing = dir;
+            this.Facing = dir;
         }
 
-        public static Direction parse(String dir)
+        public static Direction Parse(String dir)
         {
             Direction returnDir = null;
             switch(dir)
@@ -35,10 +35,11 @@ namespace RobotSimulator.Properties
         }
 
 
-        public Position move(Position pos)
+        public Position Move(Position pos)
         {
-            Position nextPosition = pos;
-            switch(this.facing)
+            //Console.WriteLine("CurrentPosition:" + pos.x + "," + pos.y);
+            Position nextPosition = null;
+            switch(this.Facing)
             {
                 case Directions.NORTH:
                     nextPosition = new Position(pos.x, pos.y + 1);
@@ -55,12 +56,13 @@ namespace RobotSimulator.Properties
                 default:
                     break;
             }
+            //Console.WriteLine("NextPosition:" + nextPosition.x + "," + nextPosition.y);
             return nextPosition;
         }
 
         public override string ToString()
         {
-            return Enum.GetName(typeof(Directions), facing);
+            return Enum.GetName(typeof(Directions), Facing);
         }
     }
 }

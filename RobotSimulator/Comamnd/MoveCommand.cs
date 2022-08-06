@@ -12,10 +12,13 @@ namespace RobotSimulator.Comamnd
         {
         }
 
-        public void execute(Robot robot)
+        public void Execute(Robot robot)
         {
-            Position newPosition = robot.direction.move(robot.position);
-            robot.position = newPosition;
+            Position newPosition = robot.Direction.Move(robot.Position);
+            if (newPosition.IsValid)
+            {
+                robot.Position = newPosition;
+            }
         }
     }
 }

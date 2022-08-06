@@ -11,10 +11,10 @@ namespace RobotSimulator.Comamnd
         {
         }
 
-        public void execute(Robot robot)
+        public void Execute(Robot robot)
         {
-            Console.WriteLine("Position:" + robot.position.ToString());
-            Console.WriteLine("Direction:" + robot.direction.ToString());
+            Console.WriteLine("Position:" + robot.Position.ToString());
+            Console.WriteLine("Direction:" + robot.Direction.ToString());
         }
     }
 }

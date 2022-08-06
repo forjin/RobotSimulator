@@ -16,6 +16,10 @@ namespace RobotSimulator.Properties
         {
             get;
         }
+        public bool IsValid
+        {
+            get;
+        }
 
         public Position()
         {
@@ -25,10 +29,16 @@ namespace RobotSimulator.Properties
 
         public Position(int x, int y)
         {
-            if (x >= MIN_BOUNDARY_X && x < MAX_BOUNDARY_X && y >= MIN_BOUNDARY_Y && y < MAX_BOUNDARY_Y)
+            this.x = x;
+            this.y = y;
+            if (x >= MIN_BOUNDARY_X && x < MAX_BOUNDARY_X &&
+                y >= MIN_BOUNDARY_Y && y < MAX_BOUNDARY_Y)
             {
-                this.x = x;
-                this.y = y;
+                IsValid = true;
+            }
+            else
+            {
+                IsValid = false;
             }
         }
 

@@ -1,19 +1,21 @@
-﻿using RobotSimulator.Comamnd;
-using RobotSimulator.Properties;
+﻿using RobotSimulator;
 using RobotSimulator.Resource;
 
-Position pos = new Position();
-Direction dir = new Direction(Directions.NORTH);
-Robot r = new Robot(pos, dir);
 
-while (true)
+public class Program
 {
+    public static void Main(string[] args)
+    {
+        Robot r = new Robot();
 
-    String commandLine = Console.ReadLine();
+        if (args.Length == 0)
+        {
+            ConsoleApplication.Main(r);
+        }
+        else
+        {
+            FileApplication.Main(r, args[0]);
+        }
 
-    IRobotCommand command = CommandParser.Parse(commandLine);
-
-    command.execute(r);
-
+    }
 }
-

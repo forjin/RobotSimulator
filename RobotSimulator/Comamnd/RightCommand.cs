@@ -12,11 +12,11 @@ namespace RobotSimulator.Comamnd
         {
         }
 
-        public void execute(Robot robot)
+        public void Execute(Robot robot)
         {
-            Direction currentDirection = robot.direction;
+            Direction currentDirection = robot.Direction;
             Direction nextDirection = currentDirection;
-            switch (currentDirection.facing)
+            switch (currentDirection.Facing)
             {
                 case Directions.NORTH:
                     nextDirection = new Direction(Directions.EAST);
@@ -33,7 +33,7 @@ namespace RobotSimulator.Comamnd
                 default:
                     break;
             }
-            robot.direction = nextDirection;
+            robot.Direction = nextDirection;
         }
     }
 }

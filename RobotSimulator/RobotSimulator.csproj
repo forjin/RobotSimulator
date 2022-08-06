@@ -11,10 +11,12 @@
     <None Remove="Comamnd\" />
     <None Remove="Resource\" />
     <None Remove="Properties\" />
+    <None Remove="TestFile\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Comamnd\" />
     <Folder Include="Resource\" />
     <Folder Include="Properties\" />
+    <Folder Include="TestFile\" />
   </ItemGroup>
 </Project>

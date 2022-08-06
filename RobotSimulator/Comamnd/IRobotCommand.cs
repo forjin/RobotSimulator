@@ -5,7 +5,7 @@ namespace RobotSimulator.Comamnd
 {
     public interface IRobotCommand
     {
-        void execute(Robot robot);
+        void Execute(Robot robot);
     }
 }
 

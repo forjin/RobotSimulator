@@ -16,14 +16,18 @@ namespace RobotSimulator.Comamnd
             String[] values = parameters.Split(",");
             this.xCoordinate = int.Parse(values[0]);
             this.yCoordinate = int.Parse(values[1]);
-            this.direction = Direction.parse(values[2]);
+            this.direction = Direction.Parse(values[2]);
         }
 
-        public void execute(Robot robot)
+        public void Execute(Robot robot)
         {
-            robot.position = new Position(xCoordinate, yCoordinate);
-            robot.direction = this.direction;
-            robot.isPlaced = true;
+            Position newPosition = new Position(xCoordinate, yCoordinate);
+            if (newPosition.IsValid)
+            {
+                robot.IsPlaced = true;
+                robot.Position = newPosition;
+                robot.Direction = this.direction;
+            }
         }
     }
 }
