@@ -8,7 +8,6 @@ dotnet build
 ```
 
 # Test application
-
 ```
 dotnet test
 ```
@@ -20,4 +19,6 @@ dotnet test
 ./bin/Debug/net6.0/RobotSimulator
 ```
 ## File Input Application
+```
 ./bin/Debug/net6.0/RobotSimulator <filePath>
+```
