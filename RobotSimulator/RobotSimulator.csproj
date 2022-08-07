@@ -17,6 +17,6 @@
     <Folder Include="Comamnd\" />
     <Folder Include="Resource\" />
     <Folder Include="Properties\" />
-    <Folder Include="TestFile\" />
+    <Folder Include="Sample\" />
   </ItemGroup>
 </Project>
